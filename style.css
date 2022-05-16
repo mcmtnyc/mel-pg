@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Heebo', sans-serif;
+}
+
+.line {
+  width: 100%;
+  background-color: black;
+  height: 5px;
+  margin: 3rem 0 3rem 0;
+}
+
+.navContainer {
+  border-radius: 4rem;
+  border: solid black;
+  position: fixed;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 15;
+  width: 80%;
+  height: 12vw;
+  background-color: white;
+}
+
+.name {
+  position: relative;
+  top: -5rem;
+  font-size: 2rem;
+}
+
+.navigation {
+  position: relative;
+  top: -8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navText {
+  font-size: 2rem;
+  position: relative;
+  top: -4rem;
+}
+.icon {
+margin: 1.5rem 2rem 1rem 2rem;
+height: 7vw;
+width: 7vw;
+}
+
+#aboutMeContainer{
+width: 60%;
+margin-top: 13rem;
+}
+
+ul {
+  columns: 3;
+}
+li {
+  font-size: 15pt;
+  margin: 1 2rem 1 2rem;
+}
+
+#resumeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+#projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.numboardInfoConatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  padding: 2rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
+  border-radius: 20%;
+}
+
+.instakidzInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  padding: 2rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
+  border-radius: 20%;
+}
+.projectThumbnail {
+  width: 50%
+}
+#contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
